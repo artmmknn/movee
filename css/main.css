@@ -1,0 +1,1448 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 50px;
+}
+
+.section-title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-subtitle {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.menu {
+  position: fixed;
+  background-color: #fed100;
+  height: 50px;
+  width: 100%;
+}
+
+.menu .menu-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu .logo {
+  margin: 0;
+  padding: 0;
+}
+
+.menu .logo .logo-text {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.menu .menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu .menu-list .menu-list-item {
+  display: inline;
+  margin-right: 46px;
+}
+
+.menu .menu-list .menu-list-item .menu-list-item-link {
+  color: #333333;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.menu .menu-list .menu-list-item:last-child {
+  margin-right: 0;
+}
+
+.menu .phone {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  color: #000;
+  text-decoration: none;
+}
+
+.header {
+  height: 900px;
+  background-color: #fed100;
+  margin-bottom: 100px;
+}
+
+.header .offer {
+  padding-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .offer .offer-text .offer-text-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.header .offer .offer-text .offer-text-subtitle {
+  font-size: 20px;
+}
+
+.header .offer .offer-text .offer-text-button {
+  width: 304px;
+  height: 60px;
+  color: #fff;
+  background-color: #ff352b;
+  border: none;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header .offer .features .features-list {
+  display: block;
+  list-style: none;
+  padding: 0;
+}
+
+.header .offer .features .features-list .features-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .offer .features .features-list .features-list-item .features-list-item-img {
+  margin-right: 20px;
+  width: 40px;
+}
+
+.header .offer .features .features-list .features-list-item .features-list-item-text {
+  font-size: 20px;
+}
+
+.header .offer .offer-image .offer-image-img {
+  max-width: 100%;
+  border-radius: 100%;
+}
+
+.work-plan {
+  margin-bottom: 100px;
+}
+
+.work-plan .top-steps .top-steps-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.work-plan .top-steps .top-steps-list .top-steps-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-number {
+  font-size: 30px;
+  margin-right: 42px;
+}
+
+.work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-subtitle {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.work-plan .bottom-steps .bottom-steps-list {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-number {
+  font-size: 30px;
+  margin-right: 42px;
+}
+
+.work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-subtitle {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.prices {
+  margin-bottom: 100px;
+}
+
+.prices .price-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.prices .price-list .price-list-item {
+  border: 1px solid #ebebeb;
+  width: 400px;
+  height: 500px;
+  padding: 30px 30px 30px 30px;
+  margin-right: 23px;
+  text-align: center;
+}
+
+.prices .price-list .price-list-item:last-child {
+  margin-right: 0;
+}
+
+.prices .price-list .price-list-item .price-list-item-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.prices .price-list .price-list-item .price-list-item-text {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 60px;
+}
+
+.prices .price-list .price-list-item .price-list-item-price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.prices .price-list .price-list-item .price-list-item-button {
+  font-size: 20px;
+  font-weight: normal;
+  width: 250px;
+  height: 51px;
+  background-color: #fed100;
+  border: none;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.auto-park {
+  margin-bottom: 100px;
+}
+
+.auto-park .type-of-auto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+}
+
+.auto-park .type-of-auto .type-of-auto-button {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+  outline: none;
+  margin-right: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.auto-park .type-of-auto .type-of-auto-button:last-child {
+  margin-right: 0;
+}
+
+.auto-park .car {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.auto-park .car .car-text .car-text-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.auto-park .car .car-text .car-text-list .car-text-list-item {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.auto-park .car .car-text .car-text-button {
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #fed100;
+  border: none;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.auto-park .car .car-image .car-image-img {
+  max-width: 100%;
+}
+
+.reviews {
+  height: 700px;
+  background-color: #fed100;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.reviews .reviews-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.reviews .reviews-list .reviews-list-item {
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.reviews .reviews-list .reviews-list-item:last-child {
+  margin-right: 0;
+}
+
+.reviews .reviews-list .reviews-list-item .reviews-list-item-author {
+  font-weight: bold;
+}
+
+.reviews .reviews-list .reviews-list-item .reviews-list-item-date {
+  font-weight: normal;
+}
+
+.reviews .reviews-list .reviews-list-item .reviews-list-item-text {
+  font-weight: normal;
+}
+
+.reviews .reviews-list .reviews-list-item .reviews-list-item-a {
+  color: #000;
+  font-weight: normal;
+}
+
+.reviews .reviews-button {
+  width: 250px;
+  height: 50px;
+  border: 1px solid #333333;
+  background-color: #fed100;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  margin: 0 auto;
+}
+
+.order {
+  margin-bottom: 100px;
+}
+
+.order .order-subtitle {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.order .order-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.order .order-form .order-form-input {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ebebeb;
+  font-size: 20px;
+}
+
+.order .order-form .order-form-button {
+  width: 250px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background-color: #ff352b;
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer {
+  height: 300px;
+  padding: 20px 0 0 0;
+  background-color: #fed100;
+}
+
+.footer .footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer-container .faq .footer-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+
+.footer .footer-container .faq .faq-text {
+  margin-bottom: 45px;
+  font-size: 20px;
+}
+
+.footer .footer-container .footer-menu .footer-menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .footer-container .footer-menu .footer-menu-list .footer-menu-list-item {
+  margin-bottom: 10px;
+}
+
+.footer .footer-container .footer-menu .footer-menu-list .footer-menu-list-item .footer-menu-list-item-link {
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.footer .footer-container .footer-social .social-icons .social-icon {
+  margin-right: 30px;
+}
+
+.footer .footer-container .footer-social .social-icons .social-icon:last-child {
+  margin-right: 0;
+}
+
+.footer .footer-container .footer-social .footer-social-email {
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.footer .footer-container .back-call .back-call-button {
+  border: 1px solid #000;
+  background-color: #fed100;
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.footer .footer-container .back-call .back-call-tel {
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    max-width: 750px;
+  }
+  .section-title {
+    font-size: 25px;
+  }
+  .section-subtitle {
+    font-size: 15px;
+  }
+  .menu .menu-list {
+    display: none;
+  }
+  .header {
+    height: 650px;
+  }
+  .header .offer .offer-text {
+    margin-right: 100px;
+  }
+  .header .offer .offer-text .offer-text-title {
+    font-size: 25px;
+  }
+  .header .offer .offer-text .offer-text-subtitle {
+    font-size: 15px;
+  }
+  .header .offer .offer-text .offer-text-button {
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .header .offer .features .features-list .features-list-item .features-list-item-img {
+    margin-right: 20px;
+    width: 40px;
+  }
+  .header .offer .features .features-list .features-list-item .features-list-item-text {
+    font-size: 15px;
+  }
+  .header .offer .offer-image .offer-image-img {
+    max-width: 100%;
+    border-radius: 100%;
+  }
+  .work-plan .top-steps .top-steps-list {
+    display: block;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item {
+    margin: 0 auto;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-number {
+    font-size: 25px;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-title {
+    font-size: 15px;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-subtitle {
+    font-size: 15px;
+  }
+  .work-plan .bottom-steps .bottom-steps-list {
+    display: block;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item {
+    margin: 0 auto;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-number {
+    font-size: 25px;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-title {
+    font-size: 15px;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-subtitle {
+    font-size: 15px;
+  }
+  .prices .price-list .price-list-item {
+    width: 180px;
+    height: 420px;
+  }
+  .prices .price-list .price-list-item .price-list-item-title {
+    font-size: 15px;
+  }
+  .prices .price-list .price-list-item .price-list-item-text {
+    font-size: 15px;
+  }
+  .prices .price-list .price-list-item .price-list-item-price {
+    font-size: 15px;
+  }
+  .prices .price-list .price-list-item .price-list-item-button {
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .auto-park .type-of-auto .type-of-auto-button {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .auto-park .car .car-text {
+    margin-right: 100px;
+    width: 400px;
+  }
+  .auto-park .car .car-text .car-text-title {
+    font-size: 15px;
+  }
+  .auto-park .car .car-text .car-text-list .car-text-list-item {
+    font-size: 15px;
+  }
+  .auto-park .car .car-text .car-text-button {
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .auto-park .car .car-image .car-image-img {
+    max-width: 100%;
+  }
+  .reviews .reviews-list .reviews-list-item {
+    font-size: 15px;
+  }
+  .reviews .reviews-button {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .order .order-subtitle {
+    font-size: 15px;
+  }
+  .order .order-form .order-form-input {
+    font-size: 15px;
+  }
+  .order .order-form .order-form-button {
+    font-size: 15px;
+  }
+  .footer .footer-container .faq .footer-logo {
+    font-size: 15px;
+  }
+  .footer .footer-container .faq .faq-text {
+    font-size: 15px;
+  }
+  .footer .footer-container .footer-menu {
+    display: none;
+  }
+  .footer .footer-container .footer-social .footer-social-email {
+    font-size: 20px;
+  }
+  .footer .footer-container .back-call .back-call-button {
+    font-size: 20px;
+  }
+  .footer .footer-container .back-call .back-call-tel {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 550px;
+  }
+  .section-title {
+    font-size: 25px;
+  }
+  .section-subtitle {
+    font-size: 15px;
+  }
+  .menu .menu-list {
+    display: none;
+  }
+  .header {
+    height: 650px;
+  }
+  .header .offer .offer-text {
+    margin-right: 100px;
+  }
+  .header .offer .offer-text .offer-text-title {
+    font-size: 25px;
+  }
+  .header .offer .offer-text .offer-text-subtitle {
+    font-size: 15px;
+  }
+  .header .offer .offer-text .offer-text-button {
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .header .offer .features .features-list .features-list-item .features-list-item-img {
+    margin-right: 20px;
+    width: 40px;
+  }
+  .header .offer .features .features-list .features-list-item .features-list-item-text {
+    font-size: 15px;
+  }
+  .header .offer .offer-image .offer-image-img {
+    max-width: 100%;
+    border-radius: 100%;
+  }
+  .work-plan .top-steps .top-steps-list {
+    display: block;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item {
+    margin: 0 auto;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-number {
+    font-size: 25px;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-title {
+    font-size: 15px;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-subtitle {
+    font-size: 15px;
+  }
+  .work-plan .bottom-steps .bottom-steps-list {
+    display: block;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item {
+    margin: 0 auto;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-number {
+    font-size: 25px;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-title {
+    font-size: 15px;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-subtitle {
+    font-size: 15px;
+  }
+  .prices .price-list {
+    display: block;
+    margin: 0;
+  }
+  .prices .price-list .price-list-item {
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 50px;
+  }
+  .prices .price-list .price-list-item:last-child {
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+  .prices .price-list .price-list-item .price-list-item-title {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .prices .price-list .price-list-item .price-list-item-text {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .prices .price-list .price-list-item .price-list-item-price {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .prices .price-list .price-list-item .price-list-item-button {
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+  }
+  .auto-park .type-of-auto .type-of-auto-button {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .auto-park .car .car-text {
+    margin-right: 100px;
+    width: 650px;
+  }
+  .auto-park .car .car-text .car-text-title {
+    font-size: 15px;
+  }
+  .auto-park .car .car-text .car-text-list .car-text-list-item {
+    font-size: 15px;
+  }
+  .auto-park .car .car-text .car-text-button {
+    width: 160px;
+    height: 40px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .auto-park .car .car-image .car-image-img {
+    max-width: 100%;
+  }
+  .reviews {
+    display: none;
+  }
+  .reviews .reviews-list .reviews-list-item {
+    font-size: 15px;
+  }
+  .reviews .reviews-button {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .order .order-subtitle {
+    font-size: 15px;
+  }
+  .order .order-form .order-form-input {
+    font-size: 15px;
+    width: 140px;
+  }
+  .order .order-form .order-form-button {
+    font-size: 15px;
+    width: 140px;
+  }
+  .footer .footer-container .faq .footer-logo {
+    font-size: 15px;
+  }
+  .footer .footer-container .faq .faq-text {
+    font-size: 15px;
+  }
+  .footer .footer-container .footer-menu {
+    display: none;
+  }
+  .footer .footer-container .footer-social .footer-social-email {
+    font-size: 20px;
+  }
+  .footer .footer-container .back-call {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 400px;
+  }
+  .section-title {
+    font-size: 25px;
+  }
+  .section-subtitle {
+    font-size: 15px;
+  }
+  .menu .menu-list {
+    display: none;
+  }
+  .header {
+    height: 650px;
+  }
+  .header .offer .offer-text {
+    margin-right: 100px;
+  }
+  .header .offer .offer-text .offer-text-title {
+    font-size: 25px;
+  }
+  .header .offer .offer-text .offer-text-subtitle {
+    font-size: 15px;
+  }
+  .header .offer .offer-text .offer-text-button {
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .header .offer .features .features-list .features-list-item .features-list-item-img {
+    margin-right: 20px;
+    width: 40px;
+  }
+  .header .offer .features .features-list .features-list-item .features-list-item-text {
+    font-size: 15px;
+  }
+  .header .offer .offer-image {
+    display: none;
+  }
+  .header .offer .offer-image .offer-image-img {
+    max-width: 100%;
+    border-radius: 100%;
+  }
+  .work-plan .top-steps .top-steps-list {
+    display: block;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item {
+    margin: 0 auto;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-number {
+    font-size: 25px;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-title {
+    font-size: 15px;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-subtitle {
+    font-size: 15px;
+  }
+  .work-plan .bottom-steps .bottom-steps-list {
+    display: block;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item {
+    margin: 0 auto;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-number {
+    font-size: 25px;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-title {
+    font-size: 15px;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-subtitle {
+    font-size: 15px;
+  }
+  .prices .price-list {
+    display: block;
+    margin: 0;
+  }
+  .prices .price-list .price-list-item {
+    margin: 0 auto;
+    width: 250px;
+    height: 300px;
+    margin-bottom: 50px;
+  }
+  .prices .price-list .price-list-item:last-child {
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+  .prices .price-list .price-list-item .price-list-item-title {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .prices .price-list .price-list-item .price-list-item-text {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .prices .price-list .price-list-item .price-list-item-price {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .prices .price-list .price-list-item .price-list-item-button {
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+  }
+  .auto-park .type-of-auto .type-of-auto-button {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .auto-park .car .car-text {
+    margin-right: 100px;
+    width: 650px;
+  }
+  .auto-park .car .car-text .car-text-title {
+    font-size: 15px;
+  }
+  .auto-park .car .car-text .car-text-list .car-text-list-item {
+    font-size: 15px;
+  }
+  .auto-park .car .car-text .car-text-button {
+    width: 160px;
+    height: 40px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .auto-park .car .car-image {
+    display: none;
+  }
+  .auto-park .car .car-image .car-image-img {
+    max-width: 100%;
+  }
+  .reviews .reviews-list .reviews-list-item {
+    font-size: 15px;
+  }
+  .reviews .reviews-button {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .order {
+    margin-bottom: 100px;
+  }
+  .order .order-subtitle {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .order .order-form {
+    display: block;
+  }
+  .order .order-form .order-form-input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ebebeb;
+    font-size: 15px;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+  }
+  .order .order-form .order-form-button {
+    width: 250px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: #ff352b;
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+  }
+  .footer .footer-container {
+    display: block;
+  }
+  .footer .footer-container .faq {
+    margin-bottom: 30px;
+  }
+  .footer .footer-container .faq .footer-logo {
+    font-size: 15px;
+  }
+  .footer .footer-container .faq .faq-text {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .footer .footer-container .footer-menu {
+    display: none;
+  }
+  .footer .footer-container .footer-social .footer-social-email {
+    font-size: 15px;
+    text-align-last: left;
+  }
+  .footer .footer-container .back-call {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 400px;
+  }
+  .section-title {
+    font-size: 25px;
+  }
+  .section-subtitle {
+    font-size: 15px;
+  }
+  .menu .menu-list {
+    display: none;
+  }
+  .header {
+    height: 650px;
+  }
+  .header .offer .offer-text {
+    margin-right: 100px;
+  }
+  .header .offer .offer-text .offer-text-title {
+    font-size: 25px;
+  }
+  .header .offer .offer-text .offer-text-subtitle {
+    font-size: 15px;
+  }
+  .header .offer .offer-text .offer-text-button {
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .header .offer .features .features-list .features-list-item .features-list-item-img {
+    margin-right: 20px;
+    width: 40px;
+  }
+  .header .offer .features .features-list .features-list-item .features-list-item-text {
+    font-size: 15px;
+  }
+  .header .offer .offer-image {
+    display: none;
+  }
+  .header .offer .offer-image .offer-image-img {
+    max-width: 100%;
+    border-radius: 100%;
+  }
+  .work-plan .top-steps .top-steps-list {
+    display: block;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item {
+    margin: 0 auto;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-number {
+    font-size: 25px;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-title {
+    font-size: 15px;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-subtitle {
+    font-size: 15px;
+  }
+  .work-plan .bottom-steps .bottom-steps-list {
+    display: block;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item {
+    margin: 0 auto;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-number {
+    font-size: 25px;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-title {
+    font-size: 15px;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-subtitle {
+    font-size: 15px;
+  }
+  .prices .price-list {
+    display: block;
+    margin: 0;
+  }
+  .prices .price-list .price-list-item {
+    margin: 0 auto;
+    width: 250px;
+    height: 300px;
+    margin-bottom: 50px;
+  }
+  .prices .price-list .price-list-item:last-child {
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+  .prices .price-list .price-list-item .price-list-item-title {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .prices .price-list .price-list-item .price-list-item-text {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .prices .price-list .price-list-item .price-list-item-price {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .prices .price-list .price-list-item .price-list-item-button {
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+  }
+  .auto-park .type-of-auto .type-of-auto-button {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .auto-park .car .car-text {
+    margin-right: 100px;
+    width: 650px;
+  }
+  .auto-park .car .car-text .car-text-title {
+    font-size: 15px;
+  }
+  .auto-park .car .car-text .car-text-list .car-text-list-item {
+    font-size: 15px;
+  }
+  .auto-park .car .car-text .car-text-button {
+    width: 160px;
+    height: 40px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .auto-park .car .car-image {
+    display: none;
+  }
+  .auto-park .car .car-image .car-image-img {
+    max-width: 100%;
+  }
+  .reviews .reviews-list .reviews-list-item {
+    font-size: 15px;
+  }
+  .reviews .reviews-button {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .order {
+    margin-bottom: 100px;
+  }
+  .order .order-subtitle {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .order .order-form {
+    display: block;
+  }
+  .order .order-form .order-form-input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ebebeb;
+    font-size: 15px;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+  }
+  .order .order-form .order-form-button {
+    width: 250px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: #ff352b;
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+  }
+  .footer .footer-container {
+    display: block;
+  }
+  .footer .footer-container .faq {
+    margin-bottom: 30px;
+  }
+  .footer .footer-container .faq .footer-logo {
+    font-size: 15px;
+  }
+  .footer .footer-container .faq .faq-text {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .footer .footer-container .footer-menu {
+    display: none;
+  }
+  .footer .footer-container .footer-social .footer-social-email {
+    font-size: 15px;
+    text-align-last: left;
+  }
+  .footer .footer-container .back-call {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: none;
+  }
+  .section-title {
+    font-size: 15px;
+  }
+  .section-subtitle {
+    font-size: 10px;
+  }
+  .menu {
+    margin: 0;
+  }
+  .menu .menu-list {
+    display: none;
+  }
+  .menu .phone {
+    display: none;
+  }
+  .header {
+    height: 400px;
+  }
+  .header .offer {
+    display: block;
+    padding-top: 100px;
+  }
+  .header .offer .offer-text {
+    margin-right: 100px;
+  }
+  .header .offer .offer-text .offer-text-title {
+    font-size: 15px;
+  }
+  .header .offer .offer-text .offer-text-subtitle {
+    font-size: 10px;
+  }
+  .header .offer .offer-text .offer-text-button {
+    width: 100%;
+    height: 30px;
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .header .offer .features .features-list .features-list-item .features-list-item-img {
+    margin-right: 20px;
+    width: 40px;
+  }
+  .header .offer .features .features-list .features-list-item .features-list-item-text {
+    font-size: 10px;
+  }
+  .header .offer .offer-image .offer-image-img {
+    max-width: 100%;
+    border-radius: 100%;
+  }
+  .work-plan .top-steps .top-steps-list {
+    display: block;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-number {
+    font-size: 15px;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-title {
+    font-size: 10px;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-subtitle {
+    font-size: 10px;
+  }
+  .work-plan .bottom-steps .bottom-steps-list {
+    display: block;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-number {
+    font-size: 15px;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-title {
+    font-size: 10px;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-subtitle {
+    font-size: 10px;
+  }
+  .prices .price-list {
+    display: block;
+    margin: 0;
+  }
+  .prices .price-list .price-list-item {
+    margin: 0 auto;
+    width: 150px;
+    height: 200px;
+    margin-bottom: 50px;
+  }
+  .prices .price-list .price-list-item:last-child {
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+  .prices .price-list .price-list-item .price-list-item-title {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  .prices .price-list .price-list-item .price-list-item-text {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  .prices .price-list .price-list-item .price-list-item-price {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  .prices .price-list .price-list-item .price-list-item-button {
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+  }
+  .auto-park .type-of-auto .type-of-auto-button {
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+    width: 100px;
+    height: 30px;
+  }
+  .auto-park .car {
+    display: block;
+  }
+  .auto-park .car .car-text {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .auto-park .car .car-text .car-text-title {
+    font-size: 10px;
+  }
+  .auto-park .car .car-text .car-text-list {
+    padding: 0;
+    list-style: none;
+  }
+  .auto-park .car .car-text .car-text-list .car-text-list-item {
+    font-size: 10px;
+  }
+  .auto-park .car .car-text .car-text-button {
+    width: 150px;
+    height: 40px;
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .auto-park .car .car-image {
+    margin-top: 60px;
+  }
+  .auto-park .car .car-image .car-image-img {
+    max-width: 100%;
+  }
+  .reviews {
+    height: 800px;
+  }
+  .reviews .reviews-list {
+    display: block;
+  }
+  .reviews .reviews-list .reviews-list-item {
+    font-size: 10px;
+    margin-bottom: 50px;
+  }
+  .reviews .reviews-list .reviews-list-item:last-child {
+    margin-bottom: 0;
+  }
+  .reviews .reviews-button {
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .order .order-subtitle {
+    font-size: 10px;
+  }
+  .order .order-form {
+    display: block;
+  }
+  .order .order-form .order-form-input {
+    font-size: 10px;
+    display: block;
+    margin: 20px auto;
+  }
+  .order .order-form .order-form-button {
+    font-size: 10px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+  }
+  .footer {
+    height: 250px;
+  }
+  .footer .footer-container {
+    display: block;
+  }
+  .footer .footer-container .faq .footer-logo {
+    font-size: 10px;
+  }
+  .footer .footer-container .faq .faq-text {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  .footer .footer-container .footer-menu {
+    display: none;
+  }
+  .footer .footer-container .footer-social .footer-social-email {
+    font-size: 10px;
+    text-align: left;
+  }
+  .footer .footer-container .back-call {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */
